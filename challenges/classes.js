@@ -1,10 +1,10 @@
 // 1. Copy and paste your prototype in here and refactor into class syntax.
 
 class CuboidMaker {
-  constructor(dementions) {
-    this.length = dementions.length;
-    this.width = dementions.width;
-    this.height = dementions.height;
+  constructor(dimensions) {
+    this.length = dimensions.length;
+    this.width = dimensions.width;
+    this.height = dimensions.height;
   }
 
   volume() {
